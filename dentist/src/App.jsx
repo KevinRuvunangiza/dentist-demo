@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -8,6 +7,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import './App.css';
 
 function App() {
   return (
